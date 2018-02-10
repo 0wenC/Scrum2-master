@@ -14,7 +14,12 @@ h2
     font-size: 1.3em;
 }
 
-ul
+ul.circle
   { 
     list-style-type: circle;
+}
+
+ul.face
+  {
+    list-style-image:url("images/owenBullet.png")
 }
