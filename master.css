@@ -1,8 +1,7 @@
 body
   {
     font-size: 20px;
-    min-width: 450px;
-    max-width: 1600px;
+    width:1000px;
     float:center;
     margin: auto;
 }
@@ -19,11 +18,6 @@ h2
     font-size: 1.0em;
 }
 
-div.listexample{
-    width: 600;
-    float:left;
-    margin: 10px;
-}
 
 ul.circle
   { 
@@ -37,15 +31,17 @@ ul.face
 
 
 div.maintext{
-    min-width: 450px;
-    max-width: 1000px;
+    width: 700px;
     float:left;
     margin: 10px;
 }
 
-div.line{
-    float: left;
+div.listexample{
+    width: 260px;
+    float:right;
+    margin: 10px;
 }
+
 nav
     {
         margin:auto;
