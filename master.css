@@ -1,6 +1,10 @@
 body
   {
     font-size: 20px;
+    min-width: 450px;
+    max-width: 1600px;
+    float:center;
+    margin: auto;
 }
 
 h1
@@ -23,4 +27,20 @@ ul.circle
 ul.face
   {
     list-style-image:url("images/owenBullet.png")
+}
+
+main.maintext
+    {
+
+}
+
+nav
+    {
+        margin:auto;
+        border:0px;
+        padding:10px;
+        background-color: #DF7401;
+        float:center;
+        min-width: 450px;
+        max-width: 1600px;
 }
