@@ -9,14 +9,20 @@ body
 
 h1
   {
-    font-size: 200%;
+    font-size: 150%;
     color: red;
     color: rgba(0, 0, 100, 0.5);
 }
 
 h2
   {
-    font-size: 1.3em;
+    font-size: 1.0em;
+}
+
+div.listexample{
+    width: 600;
+    float:left;
+    margin: 10px;
 }
 
 ul.circle
@@ -29,18 +35,24 @@ ul.face
     list-style-image:url("images/owenBullet.png")
 }
 
-main.maintext
-    {
 
+div.maintext{
+    min-width: 450px;
+    max-width: 1000px;
+    float:left;
+    margin: 10px;
 }
 
+div.line{
+    float: left;
+}
 nav
     {
         margin:auto;
         border:0px;
         padding:10px;
         background-color: #DF7401;
-        float:center;
+        float:right;
         min-width: 450px;
         max-width: 1600px;
 }
