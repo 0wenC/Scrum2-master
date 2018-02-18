@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+
+        <title>Welcome to our website</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="master.css">
+        
+        <style type-"text/css">
+        
+        .bord {
+		width:250px;
+		color:lightblue;
+		border: 2px solid red;
+		margin: auto;         
+		padding-left: 10px;
+		border-radius: 5px 5px 5px 5px;
+		background:linear-gradient(to right, green, blue);
+		text-shadow: 3px 2px purple; 
+            }
+	#para1 {
+		background-color: #eee;
+		width: 200px;
+		height: 50px;
+		border: 1px dotted black;
+		overflow: scroll;
+		}
+	table {
+		border-collapse: collapse;
+		}
+	table, td, th {
+		border: 1px solid green;
+		}
+	.in {
+	
+	border: 2px solid red;
+	display:inline;
+	}
+         </style>
+
+    </head>
+    
+    <body>
+        
+        <nav>
+            <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page/news.html">News</a></li>
+            <li><a href="page/store.html">Store</a></li>
+            <li><a href="page/signup.html">Sign-up</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h1>Bournemouth's Film Club</h1>
+            <h2>The Website of Bournemouth's Best Film Club</h2>
+            
+            <div class="imagemain"><img src="images/youbeentrump.png" alt="You've Been Trumped Screenshot"></div>
+            
+            <div class="maintext">
+            <p>We are a bunch of like minded people who have a love of documentary's.  We meet once a week to view both the most recent releases and possibly some of the classics. </p>
+            </div>
+
+	    <h2>Example of a Table</h2>
+            <table>
+		    <tr>
+		    <th> Name </th>
+		    <th> Surname </th>
+		    </tr>
+		    <tr>
+			    <td>Luca</td>
+			    <td>Beltrame</td>
+		    </tr>
+		    <tr>
+			    <td>Owen </td>
+			    <td>Cranston</td>
+		    </tr>
+		    <tr>
+			    <td> Davide</td>
+			    <td>Beltrame</td>
+		    </tr>
+		    <tr>
+			    <td>Judit</td>
+			    <td>Ramos</td>
+		    </tr>
+		</table>
+		<dir>Is Display property useful? 
+			<p class = "in"> Yes, because it treats block elements as if they were inline (and the opposite as well..)</p>
+		</dir>
+        </main>
+        
+        <p class = "bord"> Here's an example of more advanced styling! </p>
+        
+        <p> Here's an invisible element; notice that it occupies space anyway..
+		<p style="visibility: hidden;" An invisible element</p>
+		<p> And then there is an element that totally disappear from the page. </p>
+		<p style = "display: none;" an item totally vanished from the page </p>			     
+			     
+	    <p id = "para1"> This part has been made in order to show what is the purpose of the scrollbar. By setting the overflow option "scroll",
+		you can see al the text of the paragraph through a scrollabar that can be set vertically or horizontally </p>
+
+        
+    <footer>
+        
+        <hr>
+        <p><a href="#top">Click to go back to top</a></p>
+        
+    </footer>
+        
+    </body>
+</html>

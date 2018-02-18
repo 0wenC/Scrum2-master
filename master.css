@@ -78,21 +78,27 @@ div.maintext{
     text-align: center
 }
 
-div.imagemain
-    {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-        display: block;
-        width: 60%;
-    }
-
-img.boxartcenter
+img.imagemain
     {
         display: block;
         margin: auto;
-        width: 50%;
-        height:"20px" 
-        
     }
+
+div.home-page-boxart
+{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+div.grid-item{
+    display: block;
+    margin: auto;
+}
+
+img.boxart-home
+{
+    height: 200px;
+}
+
 
