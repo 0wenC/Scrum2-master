@@ -70,12 +70,17 @@ ul.nav a:hover{
     background-color: #ff982b;
 }
 
-div.maintext{
+div.maintext
+{
     margin: auto;
     margin-top: 30px;
     width: 50%;
     padding: 10px;
     text-align: center
+}
+
+div.maintext h2{
+    font-size: 150%;
 }
 
 img.imagemain
@@ -89,9 +94,10 @@ div.home-page-boxart
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto auto auto auto;
+    margin-top: 20px;
 }
 
-div.grid-item{
+div.boxart-grid{
     display: block;
     margin: auto;
 }
