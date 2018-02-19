@@ -162,3 +162,14 @@ tr:hover
 {
     background-color: #aca5a0;
 }
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: gainsboro}
+
+th {
+    background-color: dimgrey;
+    color: silver;
+}
