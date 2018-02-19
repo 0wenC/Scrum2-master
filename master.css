@@ -112,7 +112,7 @@ div.home-page-events
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto;
-    width: 600px;
+    width: 500px;
     margin: auto;
 }
 
@@ -124,4 +124,22 @@ div.home-page-events h1
 div.eventitem-event
 {
     padding-top: 10px;
+}
+
+p.button
+{
+    padding: 15px;
+    font-size: 150%;
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #DF7401;
+    font-family: 'Technically but not', Arial;
+    text-align: center;
+}
+
+p.button :hover
+{
+    background-color: #ff982b;
+    
 }
