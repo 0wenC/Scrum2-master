@@ -129,7 +129,7 @@ div.eventitem-event
     padding-top: 10px;
 }
 
-p.button
+a.button
 {
     display: block;
     padding: 15px;
@@ -139,9 +139,11 @@ p.button
     background-color: #DF7401;
     font-family: 'Technically but not', Arial;
     text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-a.button :hover
+a.button:hover
 {
     background-color: #ff982b;
     
